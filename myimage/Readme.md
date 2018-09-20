@@ -25,7 +25,7 @@ Step 4: Create instance template from it.
 
 --------- Container image: value from container registry (i.e.: eu.gcr.io/project_name/repo_name:latest )
 
---------- Firewall: HTTP/HTTPS
+--------- Firewall: HTTP
 
 --------- Create
 
@@ -61,6 +61,18 @@ Step 5: Create an instance group
 
 --------- Create
 
-Step 6:
+Step 6: Update Managed Instace Group
 
---------- 
+--------- Go inside your newly creaed MiG and click EDIT
+
+--------- Click on Specify port name mapping + Add Item
+
+---------------- Port name: http
+
+---------------- Port numbers: 80
+
+--------- Save
+
+Step 7: 
+
+---------
