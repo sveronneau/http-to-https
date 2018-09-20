@@ -13,6 +13,8 @@ Step 3: Create a 'build trigger' in Cloud Build
 
 --------- Dockerfile name: Dockerfile
 
+--------- Create
+
 Step 4: Create instance template from it.
 
 --------- Name: http-to-https
@@ -60,3 +62,5 @@ Step 5: Create an instance group
 --------- Create
 
 Step 6:
+
+--------- 
