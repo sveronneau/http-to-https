@@ -23,7 +23,7 @@ Step 4: Create instance template from it.
 
 --------- Check the CONTAINER box
 
---------- Container image: value from container registry (i.e.: eu.gcr.io/project_name/repo_name:latest )
+--------- Container image: value from container registry (i.e.: eu.gcr.io/project_name/repo_name:SHA VALUE )
 
 --------- Firewall: HTTP
 
@@ -73,6 +73,20 @@ Step 6: Update Managed Instace Group
 
 --------- Save
 
-Step 7: 
+Step 7: On an existing GCLB - Create a backend service
 
----------
+--------- Name: http-to-https
+
+--------- Protocol: http
+
+--------- Named port: http
+
+--------- Instance group: http-to-https
+
+--------- Port numbers: 80
+
+--------- Done
+
+--------- Health Check: http-to-https
+
+--------- Create
