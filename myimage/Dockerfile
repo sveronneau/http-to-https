@@ -1,9 +1,8 @@
 FROM alpine:3.8
 
 RUN apk --update --no-cache add nginx
-RUN mkdir /var/lib/nginx
-RUN mkdir /var/lib/html
-RUN touch /var/lib/html/check.html
+RUN mkdir /var/lib/nginx/html
+RUN touch /var/lib/nginx/html/check.html
 
 COPY global.conf /etc/nginx/modules/global.conf
 COPY http.conf /etc/nginx/conf.d/default.conf
