@@ -1,5 +1,5 @@
-Tested on GCP with GLB and GKE Deployment
-=========================================
+Tested on GCP with GLB with SSL and GKE Deployment
+==================================================
 
 Step 1: Create a source repo
 
