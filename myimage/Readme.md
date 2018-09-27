@@ -15,7 +15,7 @@ Step 3: Create a 'build trigger' in Cloud Build
 
 --- Create
 
-Step 4: Insert the container creation code in your YAML file for your GKE Deployment.
+Step 4: Insert the container creation code in your YAML file (sidecar) for your GKE Deployment.
 
 ```
       containers:
