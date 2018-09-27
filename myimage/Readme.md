@@ -30,6 +30,6 @@ Step 4: Insert the container creation code in your YAML file for your GKE Deploy
 
 Step 5: Expose a Service where port is 80 and target port is 80.
 
-Step 6: Create an Ingress Loadbalancer with an Frontedn SSl policy container your site certificate
+Step 6: Create an Ingress Loadbalancer with an Frontend SSL Policy containing your site certificates.
 
 Step 7: Test it out.
